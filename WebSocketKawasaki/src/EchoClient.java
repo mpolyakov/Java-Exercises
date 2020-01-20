@@ -1,5 +1,11 @@
 import java.io.*;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.X509Certificate;
+
 import com.neovisionaries.ws.client.*;
+
+import javax.net.ssl.*;
 
 
 public class EchoClient
